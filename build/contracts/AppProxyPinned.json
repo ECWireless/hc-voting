@@ -116,60 +116,60 @@
   "metadata": "{\"compiler\":{\"version\":\"0.4.24+commit.e67f0147\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"proxyType\",\"outputs\":[{\"name\":\"proxyTypeId\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"pure\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"isDepositable\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"implementation\",\"outputs\":[{\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"appId\",\"outputs\":[{\"name\":\"\",\"type\":\"bytes32\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"kernel\",\"outputs\":[{\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"name\":\"_kernel\",\"type\":\"address\"},{\"name\":\"_appId\",\"type\":\"bytes32\"},{\"name\":\"_initializePayload\",\"type\":\"bytes\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"payable\":true,\"stateMutability\":\"payable\",\"type\":\"fallback\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"name\":\"sender\",\"type\":\"address\"},{\"indexed\":false,\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"ProxyDeposit\",\"type\":\"event\"}],\"devdoc\":{\"methods\":{\"implementation()\":{\"details\":\"ERC897, the address the proxy would delegate calls to\"},\"proxyType()\":{\"details\":\"ERC897, whether it is a forwarding (1) or an upgradeable (2) proxy\"}}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"@aragon/os/contracts/apps/AppProxyPinned.sol\":\"AppProxyPinned\"},\"evmVersion\":\"byzantium\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":10000},\"remappings\":[]},\"sources\":{\"@aragon/os/contracts/acl/IACL.sol\":{\"keccak256\":\"0xe3492bc29d2482e65d2e39c96487b5388f6181f6bcdc6fe6329b8206b84c0cf1\",\"urls\":[\"bzzr://3af0b7e423c7ff4100a3b5868203ec169c866328f2d93d3b6a2111e916cdc411\"]},\"@aragon/os/contracts/apps/AppProxyBase.sol\":{\"keccak256\":\"0x6d591412d30dc3d5079f8c5cab04f83ad44be376a9e4143d4a3b2067cd7a4483\",\"urls\":[\"bzzr://fa928f595ac4de05bb78303e1e6ee186331d10602dbb8bc56c23c9761584a26b\"]},\"@aragon/os/contracts/apps/AppProxyPinned.sol\":{\"keccak256\":\"0xbe6285bcc237c696e297948be02cfad8d48812ba52d67f8947b52c0546da53b1\",\"urls\":[\"bzzr://217ba70dd30d05d654c4537fce1d353e7e751ba44fea487559f60aa69f9f255f\"]},\"@aragon/os/contracts/apps/AppStorage.sol\":{\"keccak256\":\"0xb1c8eb71d1bdfe1241cc1714b280b46bbfc5bcb1e8499d42c24d3f5f5e8130f1\",\"urls\":[\"bzzr://503beec9e0e19834cb685a1d037eb9caaa412e3709d90bf6e53f51d143d58029\"]},\"@aragon/os/contracts/common/DelegateProxy.sol\":{\"keccak256\":\"0x381a4ab9b57abf496b337146a52d533aaf6a8247941fbc19735cbde0e891e85b\",\"urls\":[\"bzzr://f7457df0e3f0ec11cb66a6b90017299fbb4ea1129ec88739af56682032f95c02\"]},\"@aragon/os/contracts/common/DepositableDelegateProxy.sol\":{\"keccak256\":\"0x80a08f88ca7051a248c6fd91283fef4b01b241d1dc97e13499f1460093ff3068\",\"urls\":[\"bzzr://5b130a1a8a655a0c1cb184ed7857bd68ace262d4904d2ed3f94b660721074f11\"]},\"@aragon/os/contracts/common/DepositableStorage.sol\":{\"keccak256\":\"0x67e1884ba4c91de1c6fe1fc2c1c632c29ed3e7894a434c049be9f1ed80539237\",\"urls\":[\"bzzr://94f42ad7b57e419a62b9505affe5d4b17e8a139bfc5c26ec3c17ed6572589a1a\"]},\"@aragon/os/contracts/common/IVaultRecoverable.sol\":{\"keccak256\":\"0xd7cb66ee5d01be69a6abab04583cc86755bf63c2f1fd03b519a876162f52b323\",\"urls\":[\"bzzr://acb75e2637639bbc83b95032a822a54a588889f203b188e97cd78292cc0ee7f5\"]},\"@aragon/os/contracts/common/IsContract.sol\":{\"keccak256\":\"0xb76e263e3532883fe32dfe4b1447eb487a570e121c5cce01cee604dd9e44a075\",\"urls\":[\"bzzr://4a7dd7aafff496a2c6403a7e9f4e74562088b5a38e2f6e2670e38dab11b9cd8f\"]},\"@aragon/os/contracts/common/UnstructuredStorage.sol\":{\"keccak256\":\"0xe0d627fc7a7716409389f34cfe49366ba7871309d3a73262ec9608ef73e47591\",\"urls\":[\"bzzr://9742204494402cdecc66b266f0e420fcfe2677ba710db7651c40f96a63940bef\"]},\"@aragon/os/contracts/kernel/IKernel.sol\":{\"keccak256\":\"0xd02b98282ccd271b0caa86f2c249986f1619dcf41811f5dadce520b32610b68e\",\"urls\":[\"bzzr://e77000fc50cf4cfb160518af1cfb612e6cbbc06cb4357b1e03ff492fd17d8d2e\"]},\"@aragon/os/contracts/kernel/KernelConstants.sol\":{\"keccak256\":\"0x95e46be2becfb4c8952880909cd32adf5dcfa8c2e0fdf4ae054bbf83ef7f53cd\",\"urls\":[\"bzzr://68d3ce6cda841600d1e5724c0752314a084e4eeebc1fdcb6bc22c92d77c9a3db\"]},\"@aragon/os/contracts/lib/misc/ERCProxy.sol\":{\"keccak256\":\"0x7ede022292e2e9b7042b933e9ced7213f1e5c6c76fdd02c078a3abbbc03c7ee3\",\"urls\":[\"bzzr://3cb0c6f7982d8671ffabe9f1d631edef9905113afef3540574b2ea0e314ce9a1\"]}},\"version\":1}",
   "bytecode": "0x608060405234801561001057600080fd5b506040516106fd3803806106fd8339810160409081528151602083015191830151909201828282600061004b8464010000000061017a810204565b61005d836401000000006101a2810204565b61006f836401000000006101d9810204565b90506000825111156101185761008d816401000000006102a9810204565b151561009857600080fd5b80600160a060020a03168260405180828051906020019080838360005b838110156100cd5781810151838201526020016100b5565b50505050905090810190601f1680156100fa5780820380516001836020036101000a031916815260200191505b50915050600060405180830381855af4915050151561011857600080fd5b50505050610145610137836101d9640100000000026401000000009004565b6401000000006102d6810204565b6101676101596401000000006102fb810204565b6401000000006102a9810204565b151561017257600080fd5b505050610354565b61019f6000805160206106bd8339815191528264010000000061032661032682021704565b50565b61019f7fd625496217aa6a3453eecb9c3489dc5a53e6c67b444329ea2b2cbc9ff547639b8264010000000061032661032682021704565b60006101ec64010000000061032a810204565b604080517fbe00bbd80000000000000000000000000000000000000000000000000000000081527ff1f3eb40f5bc1ad1344716ced8b8a0431d840b5783aea1fd01786bc26f35ac0f6004820152602481018590529051600160a060020a03929092169163be00bbd8916044808201926020929091908290030181600087803b15801561027757600080fd5b505af115801561028b573d6000803e3d6000fd5b505050506040513d60208110156102a157600080fd5b505192915050565b600080600160a060020a03831615156102c557600091506102d0565b823b90506000811191505b50919050565b61019f6000805160206106dd8339815191528264010000000061032661032682021704565b60006103216000805160206106dd83398151915264010000000061031e61035082021704565b905090565b9055565b60006103216000805160206106bd83398151915264010000000061031e61035082021704565b5490565b61035a806103636000396000f30060806040526004361061006c5763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416634555d5c9811461012b57806348a0c8dd146101525780635c60da1b1461017b57806380afdea8146101b9578063d4aae0c4146101ce575b6127107f665fd576fbbe6f247aff98f5c94a561e3f71ec2d3c988d56f12d342396c50cea6000825a10156100e15760003411361583541616156100dc576040513381523460208201527f15eeaa57c7bd188c1388020bcadc2c436ec60d647d36ef5b9eb3c742217ddee1604082a1005b600080fd5b6100e96101e3565b9050610126816000368080601f016020809104026020016040519081016040528093929190818152602001838380828437506101f2945050505050565b505050005b34801561013757600080fd5b50610140610233565b60408051918252519081900360200190f35b34801561015e57600080fd5b50610167610238565b604080519115158252519081900360200190f35b34801561018757600080fd5b506101906101e3565b6040805173ffffffffffffffffffffffffffffffffffffffff9092168252519081900360200190f35b3480156101c557600080fd5b50610140610263565b3480156101da57600080fd5b5061019061028e565b60006101ed6102b9565b905090565b60006101fd836102e4565b151561020857600080fd5b612710905060008083516020850186855a03f43d604051816000823e82801561022f578282f35b8282fd5b600190565b60006101ed7f665fd576fbbe6f247aff98f5c94a561e3f71ec2d3c988d56f12d342396c50cea61031e565b60006101ed7fd625496217aa6a3453eecb9c3489dc5a53e6c67b444329ea2b2cbc9ff547639b61031e565b60006101ed7f4172f0f7d2289153072b0a6ca36959e0cbe2efc3afe50fc81636caa96338137b61031e565b60006101ed7fdee64df20d65e53d7f51cb6ab6d921a0a6a638a91e942e1d8d02df28e31c038e61031e565b60008073ffffffffffffffffffffffffffffffffffffffff8316151561030d5760009150610318565b823b90506000811191505b50919050565b5490565b5490565b9055565b90555600a165627a7a7230582011dde276c5373896f3034af8449357ad9bb5fbfcfd199a85aeef252b0a933c3b00294172f0f7d2289153072b0a6ca36959e0cbe2efc3afe50fc81636caa96338137bdee64df20d65e53d7f51cb6ab6d921a0a6a638a91e942e1d8d02df28e31c038e",
   "deployedBytecode": "0x60806040526004361061006c5763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416634555d5c9811461012b57806348a0c8dd146101525780635c60da1b1461017b57806380afdea8146101b9578063d4aae0c4146101ce575b6127107f665fd576fbbe6f247aff98f5c94a561e3f71ec2d3c988d56f12d342396c50cea6000825a10156100e15760003411361583541616156100dc576040513381523460208201527f15eeaa57c7bd188c1388020bcadc2c436ec60d647d36ef5b9eb3c742217ddee1604082a1005b600080fd5b6100e96101e3565b9050610126816000368080601f016020809104026020016040519081016040528093929190818152602001838380828437506101f2945050505050565b505050005b34801561013757600080fd5b50610140610233565b60408051918252519081900360200190f35b34801561015e57600080fd5b50610167610238565b604080519115158252519081900360200190f35b34801561018757600080fd5b506101906101e3565b6040805173ffffffffffffffffffffffffffffffffffffffff9092168252519081900360200190f35b3480156101c557600080fd5b50610140610263565b3480156101da57600080fd5b5061019061028e565b60006101ed6102b9565b905090565b60006101fd836102e4565b151561020857600080fd5b612710905060008083516020850186855a03f43d604051816000823e82801561022f578282f35b8282fd5b600190565b60006101ed7f665fd576fbbe6f247aff98f5c94a561e3f71ec2d3c988d56f12d342396c50cea61031e565b60006101ed7fd625496217aa6a3453eecb9c3489dc5a53e6c67b444329ea2b2cbc9ff547639b61031e565b60006101ed7f4172f0f7d2289153072b0a6ca36959e0cbe2efc3afe50fc81636caa96338137b61031e565b60006101ed7fdee64df20d65e53d7f51cb6ab6d921a0a6a638a91e942e1d8d02df28e31c038e61031e565b60008073ffffffffffffffffffffffffffffffffffffffff8316151561030d5760009150610318565b823b90506000811191505b50919050565b5490565b5490565b9055565b90555600a165627a7a7230582011dde276c5373896f3034af8449357ad9bb5fbfcfd199a85aeef252b0a933c3b0029",
-  "sourceMap": "135:1470:24:-;;;693:281;8:9:-1;5:2;;;30:1;27;20:12;5:2;693:281:24;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;922:15:23;594:18;693:281:24;594:9:23;;;;:18;:::i;:::-;622:16;631:6;622:8;;;;:16;:::i;:::-;940:18;951:6;940:10;;;;:18;:::i;:::-;922:36;;1067:1;1039:18;:25;:29;1035:307;;;1092:19;1103:7;1092:10;;;;:19;:::i;:::-;1084:28;;;;;;;;1290:7;-1:-1:-1;;;;;1290:20:23;1311:18;1290:40;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;90:11;;;84:18;71:11;;;64:39;52:2;45:10;8:100;;;12:14;1290:40:23;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1282:49;;;;;;;;506:842;;;;891:33:24;905:18;916:6;905:10;;;:18;;;:::i;:::-;891:13;;;;:33;:::i;:::-;942:24;953:12;:10;;;;:12;:::i;:::-;942:10;;;;:24;:::i;:::-;934:33;;;;;;;;693:281;;;135:1470;;908:113:26;963:51;-1:-1:-1;;;;;;;;;;;1005:7:26;963:33;;;;;;:51;:::i;:::-;908:113;:::o;1027:101::-;1080:41;601:66;1114:6;1080:33;;;;;;:41;:::i;1354:143:23:-;1413:7;1439:8;:6;;;;:8;:::i;:::-;:51;;;;;;1242:66:57;1439:51:23;;;;;;;;;;;;-1:-1:-1;;;;;1439:15:23;;;;;;;:51;;;;;;;;;;;;;;;;:15;:51;;;5:2:-1;;;;30:1;27;20:12;5:2;1439:51:23;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;1439:51:23;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;-1:-1;1439:51:23;;1354:143;-1:-1:-1;;1354:143:23:o;426:244:37:-;486:4;;-1:-1:-1;;;;;506:21:37;;;502:64;;;550:5;543:12;;;;502:64;629:7;617:20;609:28;;662:1;655:4;:8;648:15;;426:244;;;;;:::o;1358:121:24:-;1421:51;-1:-1:-1;;;;;;;;;;;1460:11:24;1421:38;;;;;;:51;:::i;1485:118::-;1530:7;1556:40;-1:-1:-1;;;;;;;;;;;1556:38:24;;;;;;:40;:::i;:::-;1549:47;;1485:118;:::o;778:119:43:-;867:22;;865:26::o;674:116:26:-;713:7;747:35;-1:-1:-1;;;;;;;;;;;747:33:26;;;;;;:35;:::i;239:134:43:-;350:15;;340:27::o;135:1470:24:-;;;;;;;",
-  "deployedSourceMap": "135:1470:24:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;192:5:30;250:66:32;264:27:31;192:5:30;819:3:31;816:28;813:2;;;1139:1;1128:9;1125:16;1109:12;1102:20;1078:21;1072:28;1068:55;1064:78;1061:2;;;1324:4;1318:11;1389:6;1380:7;1373:23;1500:9;1493:4;1484:7;1480:18;1473:37;1742:66;1736:4;1727:7;1722:87;1831:6;1061:2;2035:1;2032;2025:12;813:2;2088:16;:14;:16::i;:::-;2071:33;;2114:30;2127:6;2135:8;;2114:30;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;2114:12:31;;-1:-1:-1;;;;;2114:30:31:i;:::-;225:1926;;;135:1470:24;1255:97;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1255:97:24;;;;;;;;;;;;;;;;;;;;323:113:32;;8:9:-1;5:2;;;30:1;27;20:12;5:2;323:113:32;;;;;;;;;;;;;;;;;;;;;;1062:92:24;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1062:92:24;;;;;;;;;;;;;;;;;;;;;;;796:106:26;;8:9:-1;5:2;;;30:1;27;20:12;5:2;796:106:26;;;;674:116;;8:9:-1;5:2;;;30:1;27;20:12;5:2;674:116:26;;;;1062:92:24;1109:7;1135:12;:10;:12::i;:::-;1128:19;;1062:92;:::o;460:679:30:-;567:19;540:16;551:4;540:10;:16::i;:::-;532:25;;;;;;;;192:5;567:35;;735:1;732;720:9;714:16;707:4;696:9;692:20;686:4;672:11;667:3;663:21;650:87;762:14;806:4;800:11;847:4;844:1;839:3;824:28;1046:6;1053:28;;;;1116:4;1111:3;1104:17;1053:28;1074:4;1069:3;1062:17;1255:97:24;134:1:65;1255:97:24;:::o;323:113:32:-;369:4;392:37;250:66;392:35;:37::i;796:106:26:-;834:7;860:35;601:66;860:33;:35::i;674:116::-;713:7;747:35;485:66;747:33;:35::i;1485:118:24:-;1530:7;1556:40;337:66;1556:38;:40::i;426:244:37:-;486:4;;506:21;;;;502:64;;;550:5;543:12;;;;502:64;629:7;617:20;609:28;;662:1;655:4;:8;648:15;;426:244;;;;;:::o;105:128:43:-;210:15;;200:27::o;778:119::-;867:22;;865:26::o",
+  "sourceMap": "135:1470:25:-;;;693:281;8:9:-1;5:2;;;30:1;27;20:12;5:2;693:281:25;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;922:15:24;594:18;693:281:25;594:9:24;;;;:18;:::i;:::-;622:16;631:6;622:8;;;;:16;:::i;:::-;940:18;951:6;940:10;;;;:18;:::i;:::-;922:36;;1067:1;1039:18;:25;:29;1035:307;;;1092:19;1103:7;1092:10;;;;:19;:::i;:::-;1084:28;;;;;;;;1290:7;-1:-1:-1;;;;;1290:20:24;1311:18;1290:40;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;90:11;;;84:18;71:11;;;64:39;52:2;45:10;8:100;;;12:14;1290:40:24;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1282:49;;;;;;;;506:842;;;;891:33:25;905:18;916:6;905:10;;;:18;;;:::i;:::-;891:13;;;;:33;:::i;:::-;942:24;953:12;:10;;;;:12;:::i;:::-;942:10;;;;:24;:::i;:::-;934:33;;;;;;;;693:281;;;135:1470;;908:113:27;963:51;-1:-1:-1;;;;;;;;;;;1005:7:27;963:33;;;;;;:51;:::i;:::-;908:113;:::o;1027:101::-;1080:41;601:66;1114:6;1080:33;;;;;;:41;:::i;1354:143:24:-;1413:7;1439:8;:6;;;;:8;:::i;:::-;:51;;;;;;1242:66:58;1439:51:24;;;;;;;;;;;;-1:-1:-1;;;;;1439:15:24;;;;;;;:51;;;;;;;;;;;;;;;;:15;:51;;;5:2:-1;;;;30:1;27;20:12;5:2;1439:51:24;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;1439:51:24;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;-1:-1;1439:51:24;;1354:143;-1:-1:-1;;1354:143:24:o;426:244:38:-;486:4;;-1:-1:-1;;;;;506:21:38;;;502:64;;;550:5;543:12;;;;502:64;629:7;617:20;609:28;;662:1;655:4;:8;648:15;;426:244;;;;;:::o;1358:121:25:-;1421:51;-1:-1:-1;;;;;;;;;;;1460:11:25;1421:38;;;;;;:51;:::i;1485:118::-;1530:7;1556:40;-1:-1:-1;;;;;;;;;;;1556:38:25;;;;;;:40;:::i;:::-;1549:47;;1485:118;:::o;778:119:44:-;867:22;;865:26::o;674:116:27:-;713:7;747:35;-1:-1:-1;;;;;;;;;;;747:33:27;;;;;;:35;:::i;239:134:44:-;350:15;;340:27::o;135:1470:25:-;;;;;;;",
+  "deployedSourceMap": "135:1470:25:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;192:5:31;250:66:33;264:27:32;192:5:31;819:3:32;816:28;813:2;;;1139:1;1128:9;1125:16;1109:12;1102:20;1078:21;1072:28;1068:55;1064:78;1061:2;;;1324:4;1318:11;1389:6;1380:7;1373:23;1500:9;1493:4;1484:7;1480:18;1473:37;1742:66;1736:4;1727:7;1722:87;1831:6;1061:2;2035:1;2032;2025:12;813:2;2088:16;:14;:16::i;:::-;2071:33;;2114:30;2127:6;2135:8;;2114:30;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;2114:12:32;;-1:-1:-1;;;;;2114:30:32:i;:::-;225:1926;;;135:1470:25;1255:97;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1255:97:25;;;;;;;;;;;;;;;;;;;;323:113:33;;8:9:-1;5:2;;;30:1;27;20:12;5:2;323:113:33;;;;;;;;;;;;;;;;;;;;;;1062:92:25;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1062:92:25;;;;;;;;;;;;;;;;;;;;;;;796:106:27;;8:9:-1;5:2;;;30:1;27;20:12;5:2;796:106:27;;;;674:116;;8:9:-1;5:2;;;30:1;27;20:12;5:2;674:116:27;;;;1062:92:25;1109:7;1135:12;:10;:12::i;:::-;1128:19;;1062:92;:::o;460:679:31:-;567:19;540:16;551:4;540:10;:16::i;:::-;532:25;;;;;;;;192:5;567:35;;735:1;732;720:9;714:16;707:4;696:9;692:20;686:4;672:11;667:3;663:21;650:87;762:14;806:4;800:11;847:4;844:1;839:3;824:28;1046:6;1053:28;;;;1116:4;1111:3;1104:17;1053:28;1074:4;1069:3;1062:17;1255:97:25;134:1:66;1255:97:25;:::o;323:113:33:-;369:4;392:37;250:66;392:35;:37::i;796:106:27:-;834:7;860:35;601:66;860:33;:35::i;674:116::-;713:7;747:35;485:66;747:33;:35::i;1485:118:25:-;1530:7;1556:40;337:66;1556:38;:40::i;426:244:38:-;486:4;;506:21;;;;502:64;;;550:5;543:12;;;;502:64;629:7;617:20;609:28;;662:1;655:4;:8;648:15;;426:244;;;;;:::o;105:128:44:-;210:15;;200:27::o;778:119::-;867:22;;865:26::o",
   "source": "pragma solidity 0.4.24;\n\nimport \"../common/UnstructuredStorage.sol\";\nimport \"../common/IsContract.sol\";\nimport \"./AppProxyBase.sol\";\n\n\ncontract AppProxyPinned is IsContract, AppProxyBase {\n    using UnstructuredStorage for bytes32;\n\n    // keccak256(\"aragonOS.appStorage.pinnedCode\")\n    bytes32 internal constant PINNED_CODE_POSITION = 0xdee64df20d65e53d7f51cb6ab6d921a0a6a638a91e942e1d8d02df28e31c038e;\n\n    /**\n    * @dev Initialize AppProxyPinned (makes it an un-upgradeable Aragon app)\n    * @param _kernel Reference to organization kernel for the app\n    * @param _appId Identifier for app\n    * @param _initializePayload Payload for call to be made after setup to initialize\n    */\n    constructor(IKernel _kernel, bytes32 _appId, bytes _initializePayload)\n        AppProxyBase(_kernel, _appId, _initializePayload)\n        public // solium-disable-line visibility-first\n    {\n        setPinnedCode(getAppBase(_appId));\n        require(isContract(pinnedCode()));\n    }\n\n    /**\n     * @dev ERC897, the address the proxy would delegate calls to\n     */\n    function implementation() public view returns (address) {\n        return pinnedCode();\n    }\n\n    /**\n     * @dev ERC897, whether it is a forwarding (1) or an upgradeable (2) proxy\n     */\n    function proxyType() public pure returns (uint256 proxyTypeId) {\n        return FORWARDING;\n    }\n\n    function setPinnedCode(address _pinnedCode) internal {\n        PINNED_CODE_POSITION.setStorageAddress(_pinnedCode);\n    }\n\n    function pinnedCode() internal view returns (address) {\n        return PINNED_CODE_POSITION.getStorageAddress();\n    }\n}\n",
   "sourcePath": "@aragon/os/contracts/apps/AppProxyPinned.sol",
   "ast": {
     "absolutePath": "@aragon/os/contracts/apps/AppProxyPinned.sol",
     "exportedSymbols": {
       "AppProxyPinned": [
-        12536
+        12551
       ]
     },
-    "id": 12537,
+    "id": 12552,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 12455,
+        "id": 12470,
         "literals": [
           "solidity",
           "0.4",
           ".24"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:23:24"
+        "src": "0:23:25"
       },
       {
         "absolutePath": "@aragon/os/contracts/common/UnstructuredStorage.sol",
         "file": "../common/UnstructuredStorage.sol",
-        "id": 12456,
+        "id": 12471,
         "nodeType": "ImportDirective",
-        "scope": 12537,
-        "sourceUnit": 13580,
-        "src": "25:43:24",
+        "scope": 12552,
+        "sourceUnit": 13595,
+        "src": "25:43:25",
         "symbolAliases": [],
         "unitAlias": ""
       },
       {
         "absolutePath": "@aragon/os/contracts/common/IsContract.sol",
         "file": "../common/IsContract.sol",
-        "id": 12457,
+        "id": 12472,
         "nodeType": "ImportDirective",
-        "scope": 12537,
-        "sourceUnit": 13112,
-        "src": "69:34:24",
+        "scope": 12552,
+        "sourceUnit": 13127,
+        "src": "69:34:25",
         "symbolAliases": [],
         "unitAlias": ""
       },
       {
         "absolutePath": "@aragon/os/contracts/apps/AppProxyBase.sol",
         "file": "./AppProxyBase.sol",
-        "id": 12458,
+        "id": 12473,
         "nodeType": "ImportDirective",
-        "scope": 12537,
-        "sourceUnit": 12454,
-        "src": "104:28:24",
+        "scope": 12552,
+        "sourceUnit": 12469,
+        "src": "104:28:25",
         "symbolAliases": [],
         "unitAlias": ""
       },
@@ -179,88 +179,88 @@
             "arguments": null,
             "baseName": {
               "contractScope": null,
-              "id": 12459,
+              "id": 12474,
               "name": "IsContract",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 13111,
-              "src": "162:10:24",
+              "referencedDeclaration": 13126,
+              "src": "162:10:25",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_IsContract_$13111",
+                "typeIdentifier": "t_contract$_IsContract_$13126",
                 "typeString": "contract IsContract"
               }
             },
-            "id": 12460,
+            "id": 12475,
             "nodeType": "InheritanceSpecifier",
-            "src": "162:10:24"
+            "src": "162:10:25"
           },
           {
             "arguments": null,
             "baseName": {
               "contractScope": null,
-              "id": 12461,
+              "id": 12476,
               "name": "AppProxyBase",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 12453,
-              "src": "174:12:24",
+              "referencedDeclaration": 12468,
+              "src": "174:12:25",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_AppProxyBase_$12453",
+                "typeIdentifier": "t_contract$_AppProxyBase_$12468",
                 "typeString": "contract AppProxyBase"
               }
             },
-            "id": 12462,
+            "id": 12477,
             "nodeType": "InheritanceSpecifier",
-            "src": "174:12:24"
+            "src": "174:12:25"
           }
         ],
         "contractDependencies": [
-          12453,
-          12638,
-          12856,
-          12895,
-          12927,
-          13111,
-          15387,
-          16498
+          12468,
+          12653,
+          12871,
+          12910,
+          12942,
+          13126,
+          15402,
+          16513
         ],
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 12536,
+        "id": 12551,
         "linearizedBaseContracts": [
-          12536,
-          12453,
-          15387,
-          12895,
-          12856,
-          13111,
-          16498,
-          12927,
-          12638
+          12551,
+          12468,
+          15402,
+          12910,
+          12871,
+          13126,
+          16513,
+          12942,
+          12653
         ],
         "name": "AppProxyPinned",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
-            "id": 12465,
+            "id": 12480,
             "libraryName": {
               "contractScope": null,
-              "id": 12463,
+              "id": 12478,
               "name": "UnstructuredStorage",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 13579,
-              "src": "199:19:24",
+              "referencedDeclaration": 13594,
+              "src": "199:19:25",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_UnstructuredStorage_$13579",
+                "typeIdentifier": "t_contract$_UnstructuredStorage_$13594",
                 "typeString": "library UnstructuredStorage"
               }
             },
             "nodeType": "UsingForDirective",
-            "src": "193:38:24",
+            "src": "193:38:25",
             "typeName": {
-              "id": 12464,
+              "id": 12479,
               "name": "bytes32",
               "nodeType": "ElementaryTypeName",
-              "src": "223:7:24",
+              "src": "223:7:25",
               "typeDescriptions": {
                 "typeIdentifier": "t_bytes32",
                 "typeString": "bytes32"
@@ -269,11 +269,11 @@
           },
           {
             "constant": true,
-            "id": 12468,
+            "id": 12483,
             "name": "PINNED_CODE_POSITION",
             "nodeType": "VariableDeclaration",
-            "scope": 12536,
-            "src": "288:115:24",
+            "scope": 12551,
+            "src": "288:115:25",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -281,10 +281,10 @@
               "typeString": "bytes32"
             },
             "typeName": {
-              "id": 12466,
+              "id": 12481,
               "name": "bytes32",
               "nodeType": "ElementaryTypeName",
-              "src": "288:7:24",
+              "src": "288:7:25",
               "typeDescriptions": {
                 "typeIdentifier": "t_bytes32",
                 "typeString": "bytes32"
@@ -293,14 +293,14 @@
             "value": {
               "argumentTypes": null,
               "hexValue": "307864656536346466323064363565353364376635316362366162366439323161306136613633386139316539343265316438643032646632386533316330333865",
-              "id": 12467,
+              "id": 12482,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
               "kind": "number",
               "lValueRequested": false,
               "nodeType": "Literal",
-              "src": "337:66:24",
+              "src": "337:66:25",
               "subdenomination": null,
               "typeDescriptions": {
                 "typeIdentifier": "t_rational_100820365170570940095149395125004696378246249682938023923674859826976992789390_by_1",
@@ -312,9 +312,9 @@
           },
           {
             "body": {
-              "id": 12495,
+              "id": 12510,
               "nodeType": "Block",
-              "src": "881:93:24",
+              "src": "881:93:25",
               "statements": [
                 {
                   "expression": {
@@ -325,12 +325,12 @@
                         "arguments": [
                           {
                             "argumentTypes": null,
-                            "id": 12484,
+                            "id": 12499,
                             "name": "_appId",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 12472,
-                            "src": "916:6:24",
+                            "referencedDeclaration": 12487,
+                            "src": "916:6:25",
                             "typeDescriptions": {
                               "typeIdentifier": "t_bytes32",
                               "typeString": "bytes32"
@@ -344,18 +344,18 @@
                               "typeString": "bytes32"
                             }
                           ],
-                          "id": 12483,
+                          "id": 12498,
                           "name": "getAppBase",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 12452,
-                          "src": "905:10:24",
+                          "referencedDeclaration": 12467,
+                          "src": "905:10:25",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_view$_t_bytes32_$returns$_t_address_$",
                             "typeString": "function (bytes32) view returns (address)"
                           }
                         },
-                        "id": 12485,
+                        "id": 12500,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -363,7 +363,7 @@
                         "lValueRequested": false,
                         "names": [],
                         "nodeType": "FunctionCall",
-                        "src": "905:18:24",
+                        "src": "905:18:25",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -377,18 +377,18 @@
                           "typeString": "address"
                         }
                       ],
-                      "id": 12482,
+                      "id": 12497,
                       "name": "setPinnedCode",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 12525,
-                      "src": "891:13:24",
+                      "referencedDeclaration": 12540,
+                      "src": "891:13:25",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$returns$__$",
                         "typeString": "function (address)"
                       }
                     },
-                    "id": 12486,
+                    "id": 12501,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -396,15 +396,15 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "891:33:24",
+                    "src": "891:33:25",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 12487,
+                  "id": 12502,
                   "nodeType": "ExpressionStatement",
-                  "src": "891:33:24"
+                  "src": "891:33:25"
                 },
                 {
                   "expression": {
@@ -418,18 +418,18 @@
                             "arguments": [],
                             "expression": {
                               "argumentTypes": [],
-                              "id": 12490,
+                              "id": 12505,
                               "name": "pinnedCode",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 12535,
-                              "src": "953:10:24",
+                              "referencedDeclaration": 12550,
+                              "src": "953:10:25",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
                                 "typeString": "function () view returns (address)"
                               }
                             },
-                            "id": 12491,
+                            "id": 12506,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
@@ -437,7 +437,7 @@
                             "lValueRequested": false,
                             "names": [],
                             "nodeType": "FunctionCall",
-                            "src": "953:12:24",
+                            "src": "953:12:25",
                             "typeDescriptions": {
                               "typeIdentifier": "t_address",
                               "typeString": "address"
@@ -451,18 +451,18 @@
                               "typeString": "address"
                             }
                           ],
-                          "id": 12489,
+                          "id": 12504,
                           "name": "isContract",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 13110,
-                          "src": "942:10:24",
+                          "referencedDeclaration": 13125,
+                          "src": "942:10:25",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_view$_t_address_$returns$_t_bool_$",
                             "typeString": "function (address) view returns (bool)"
                           }
                         },
-                        "id": 12492,
+                        "id": 12507,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -470,7 +470,7 @@
                         "lValueRequested": false,
                         "names": [],
                         "nodeType": "FunctionCall",
-                        "src": "942:24:24",
+                        "src": "942:24:25",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
@@ -484,21 +484,21 @@
                           "typeString": "bool"
                         }
                       ],
-                      "id": 12488,
+                      "id": 12503,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        18256,
-                        18257
+                        18271,
+                        18272
                       ],
-                      "referencedDeclaration": 18256,
-                      "src": "934:7:24",
+                      "referencedDeclaration": 18271,
+                      "src": "934:7:25",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
                         "typeString": "function (bool) pure"
                       }
                     },
-                    "id": 12493,
+                    "id": 12508,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -506,20 +506,20 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "934:33:24",
+                    "src": "934:33:25",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 12494,
+                  "id": 12509,
                   "nodeType": "ExpressionStatement",
-                  "src": "934:33:24"
+                  "src": "934:33:25"
                 }
               ]
             },
             "documentation": "@dev Initialize AppProxyPinned (makes it an un-upgradeable Aragon app)\n@param _kernel Reference to organization kernel for the app\n@param _appId Identifier for app\n@param _initializePayload Payload for call to be made after setup to initialize",
-            "id": 12496,
+            "id": 12511,
             "implemented": true,
             "isConstructor": true,
             "isDeclaredConst": false,
@@ -528,25 +528,25 @@
                 "arguments": [
                   {
                     "argumentTypes": null,
-                    "id": 12477,
+                    "id": 12492,
                     "name": "_kernel",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 12470,
-                    "src": "785:7:24",
+                    "referencedDeclaration": 12485,
+                    "src": "785:7:25",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_IKernel_$14873",
+                      "typeIdentifier": "t_contract$_IKernel_$14888",
                       "typeString": "contract IKernel"
                     }
                   },
                   {
                     "argumentTypes": null,
-                    "id": 12478,
+                    "id": 12493,
                     "name": "_appId",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 12472,
-                    "src": "794:6:24",
+                    "referencedDeclaration": 12487,
+                    "src": "794:6:25",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -554,64 +554,64 @@
                   },
                   {
                     "argumentTypes": null,
-                    "id": 12479,
+                    "id": 12494,
                     "name": "_initializePayload",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 12474,
-                    "src": "802:18:24",
+                    "referencedDeclaration": 12489,
+                    "src": "802:18:25",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes_memory_ptr",
                       "typeString": "bytes memory"
                     }
                   }
                 ],
-                "id": 12480,
+                "id": 12495,
                 "modifierName": {
                   "argumentTypes": null,
-                  "id": 12476,
+                  "id": 12491,
                   "name": "AppProxyBase",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 12453,
-                  "src": "772:12:24",
+                  "referencedDeclaration": 12468,
+                  "src": "772:12:25",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_type$_t_contract$_AppProxyBase_$12453_$",
+                    "typeIdentifier": "t_type$_t_contract$_AppProxyBase_$12468_$",
                     "typeString": "type(contract AppProxyBase)"
                   }
                 },
                 "nodeType": "ModifierInvocation",
-                "src": "772:49:24"
+                "src": "772:49:25"
               }
             ],
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 12475,
+              "id": 12490,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 12470,
+                  "id": 12485,
                   "name": "_kernel",
                   "nodeType": "VariableDeclaration",
-                  "scope": 12496,
-                  "src": "705:15:24",
+                  "scope": 12511,
+                  "src": "705:15:25",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_IKernel_$14873",
+                    "typeIdentifier": "t_contract$_IKernel_$14888",
                     "typeString": "contract IKernel"
                   },
                   "typeName": {
                     "contractScope": null,
-                    "id": 12469,
+                    "id": 12484,
                     "name": "IKernel",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 14873,
-                    "src": "705:7:24",
+                    "referencedDeclaration": 14888,
+                    "src": "705:7:25",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_IKernel_$14873",
+                      "typeIdentifier": "t_contract$_IKernel_$14888",
                       "typeString": "contract IKernel"
                     }
                   },
@@ -620,11 +620,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 12472,
+                  "id": 12487,
                   "name": "_appId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 12496,
-                  "src": "722:14:24",
+                  "scope": 12511,
+                  "src": "722:14:25",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -632,10 +632,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 12471,
+                    "id": 12486,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "722:7:24",
+                    "src": "722:7:25",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -646,11 +646,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 12474,
+                  "id": 12489,
                   "name": "_initializePayload",
                   "nodeType": "VariableDeclaration",
-                  "scope": 12496,
-                  "src": "738:24:24",
+                  "scope": 12511,
+                  "src": "738:24:25",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -658,10 +658,10 @@
                     "typeString": "bytes"
                   },
                   "typeName": {
-                    "id": 12473,
+                    "id": 12488,
                     "name": "bytes",
                     "nodeType": "ElementaryTypeName",
-                    "src": "738:5:24",
+                    "src": "738:5:25",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes_storage_ptr",
                       "typeString": "bytes"
@@ -671,26 +671,26 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "704:59:24"
+              "src": "704:59:25"
             },
             "payable": false,
             "returnParameters": {
-              "id": 12481,
+              "id": 12496,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "881:0:24"
+              "src": "881:0:25"
             },
-            "scope": 12536,
-            "src": "693:281:24",
+            "scope": 12551,
+            "src": "693:281:25",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 12504,
+              "id": 12519,
               "nodeType": "Block",
-              "src": "1118:36:24",
+              "src": "1118:36:25",
               "statements": [
                 {
                   "expression": {
@@ -698,18 +698,18 @@
                     "arguments": [],
                     "expression": {
                       "argumentTypes": [],
-                      "id": 12501,
+                      "id": 12516,
                       "name": "pinnedCode",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 12535,
-                      "src": "1135:10:24",
+                      "referencedDeclaration": 12550,
+                      "src": "1135:10:25",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
                         "typeString": "function () view returns (address)"
                       }
                     },
-                    "id": 12502,
+                    "id": 12517,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -717,21 +717,21 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "1135:12:24",
+                    "src": "1135:12:25",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
                     }
                   },
-                  "functionReturnParameters": 12500,
-                  "id": 12503,
+                  "functionReturnParameters": 12515,
+                  "id": 12518,
                   "nodeType": "Return",
-                  "src": "1128:19:24"
+                  "src": "1128:19:25"
                 }
               ]
             },
             "documentation": "@dev ERC897, the address the proxy would delegate calls to",
-            "id": 12505,
+            "id": 12520,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -739,23 +739,23 @@
             "name": "implementation",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 12497,
+              "id": 12512,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1085:2:24"
+              "src": "1085:2:25"
             },
             "payable": false,
             "returnParameters": {
-              "id": 12500,
+              "id": 12515,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 12499,
+                  "id": 12514,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 12505,
-                  "src": "1109:7:24",
+                  "scope": 12520,
+                  "src": "1109:7:25",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -763,10 +763,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 12498,
+                    "id": 12513,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1109:7:24",
+                    "src": "1109:7:25",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -776,43 +776,43 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1108:9:24"
+              "src": "1108:9:25"
             },
-            "scope": 12536,
-            "src": "1062:92:24",
+            "scope": 12551,
+            "src": "1062:92:25",
             "stateMutability": "view",
-            "superFunction": 16497,
+            "superFunction": 16512,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 12512,
+              "id": 12527,
               "nodeType": "Block",
-              "src": "1318:34:24",
+              "src": "1318:34:25",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 12510,
+                    "id": 12525,
                     "name": "FORWARDING",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 16484,
-                    "src": "1335:10:24",
+                    "referencedDeclaration": 16499,
+                    "src": "1335:10:25",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "functionReturnParameters": 12509,
-                  "id": 12511,
+                  "functionReturnParameters": 12524,
+                  "id": 12526,
                   "nodeType": "Return",
-                  "src": "1328:17:24"
+                  "src": "1328:17:25"
                 }
               ]
             },
             "documentation": "@dev ERC897, whether it is a forwarding (1) or an upgradeable (2) proxy",
-            "id": 12513,
+            "id": 12528,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -820,23 +820,23 @@
             "name": "proxyType",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 12506,
+              "id": 12521,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1273:2:24"
+              "src": "1273:2:25"
             },
             "payable": false,
             "returnParameters": {
-              "id": 12509,
+              "id": 12524,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 12508,
+                  "id": 12523,
                   "name": "proxyTypeId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 12513,
-                  "src": "1297:19:24",
+                  "scope": 12528,
+                  "src": "1297:19:25",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -844,10 +844,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 12507,
+                    "id": 12522,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1297:7:24",
+                    "src": "1297:7:25",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -857,19 +857,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1296:21:24"
+              "src": "1296:21:25"
             },
-            "scope": 12536,
-            "src": "1255:97:24",
+            "scope": 12551,
+            "src": "1255:97:25",
             "stateMutability": "pure",
-            "superFunction": 16492,
+            "superFunction": 16507,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 12524,
+              "id": 12539,
               "nodeType": "Block",
-              "src": "1411:68:24",
+              "src": "1411:68:25",
               "statements": [
                 {
                   "expression": {
@@ -877,12 +877,12 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 12521,
+                        "id": 12536,
                         "name": "_pinnedCode",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 12515,
-                        "src": "1460:11:24",
+                        "referencedDeclaration": 12530,
+                        "src": "1460:11:25",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -898,32 +898,32 @@
                       ],
                       "expression": {
                         "argumentTypes": null,
-                        "id": 12518,
+                        "id": 12533,
                         "name": "PINNED_CODE_POSITION",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 12468,
-                        "src": "1421:20:24",
+                        "referencedDeclaration": 12483,
+                        "src": "1421:20:25",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes32",
                           "typeString": "bytes32"
                         }
                       },
-                      "id": 12520,
+                      "id": 12535,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "setStorageAddress",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 13560,
-                      "src": "1421:38:24",
+                      "referencedDeclaration": 13575,
+                      "src": "1421:38:25",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_bytes32_$_t_address_$returns$__$bound_to$_t_bytes32_$",
                         "typeString": "function (bytes32,address)"
                       }
                     },
-                    "id": 12522,
+                    "id": 12537,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -931,20 +931,20 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "1421:51:24",
+                    "src": "1421:51:25",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 12523,
+                  "id": 12538,
                   "nodeType": "ExpressionStatement",
-                  "src": "1421:51:24"
+                  "src": "1421:51:25"
                 }
               ]
             },
             "documentation": null,
-            "id": 12525,
+            "id": 12540,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -952,16 +952,16 @@
             "name": "setPinnedCode",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 12516,
+              "id": 12531,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 12515,
+                  "id": 12530,
                   "name": "_pinnedCode",
                   "nodeType": "VariableDeclaration",
-                  "scope": 12525,
-                  "src": "1381:19:24",
+                  "scope": 12540,
+                  "src": "1381:19:25",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -969,10 +969,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 12514,
+                    "id": 12529,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1381:7:24",
+                    "src": "1381:7:25",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -982,26 +982,26 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1380:21:24"
+              "src": "1380:21:25"
             },
             "payable": false,
             "returnParameters": {
-              "id": 12517,
+              "id": 12532,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1411:0:24"
+              "src": "1411:0:25"
             },
-            "scope": 12536,
-            "src": "1358:121:24",
+            "scope": 12551,
+            "src": "1358:121:25",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "internal"
           },
           {
             "body": {
-              "id": 12534,
+              "id": 12549,
               "nodeType": "Block",
-              "src": "1539:64:24",
+              "src": "1539:64:25",
               "statements": [
                 {
                   "expression": {
@@ -1011,32 +1011,32 @@
                       "argumentTypes": [],
                       "expression": {
                         "argumentTypes": null,
-                        "id": 12530,
+                        "id": 12545,
                         "name": "PINNED_CODE_POSITION",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 12468,
-                        "src": "1556:20:24",
+                        "referencedDeclaration": 12483,
+                        "src": "1556:20:25",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes32",
                           "typeString": "bytes32"
                         }
                       },
-                      "id": 12531,
+                      "id": 12546,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "getStorageAddress",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 13524,
-                      "src": "1556:38:24",
+                      "referencedDeclaration": 13539,
+                      "src": "1556:38:25",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_view$_t_bytes32_$returns$_t_address_$bound_to$_t_bytes32_$",
                         "typeString": "function (bytes32) view returns (address)"
                       }
                     },
-                    "id": 12532,
+                    "id": 12547,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1044,21 +1044,21 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "1556:40:24",
+                    "src": "1556:40:25",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
                     }
                   },
-                  "functionReturnParameters": 12529,
-                  "id": 12533,
+                  "functionReturnParameters": 12544,
+                  "id": 12548,
                   "nodeType": "Return",
-                  "src": "1549:47:24"
+                  "src": "1549:47:25"
                 }
               ]
             },
             "documentation": null,
-            "id": 12535,
+            "id": 12550,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -1066,23 +1066,23 @@
             "name": "pinnedCode",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 12526,
+              "id": 12541,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1504:2:24"
+              "src": "1504:2:25"
             },
             "payable": false,
             "returnParameters": {
-              "id": 12529,
+              "id": 12544,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 12528,
+                  "id": 12543,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 12535,
-                  "src": "1530:7:24",
+                  "scope": 12550,
+                  "src": "1530:7:25",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1090,10 +1090,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 12527,
+                    "id": 12542,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1530:7:24",
+                    "src": "1530:7:25",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -1103,71 +1103,71 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1529:9:24"
+              "src": "1529:9:25"
             },
-            "scope": 12536,
-            "src": "1485:118:24",
+            "scope": 12551,
+            "src": "1485:118:25",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "internal"
           }
         ],
-        "scope": 12537,
-        "src": "135:1470:24"
+        "scope": 12552,
+        "src": "135:1470:25"
       }
     ],
-    "src": "0:1606:24"
+    "src": "0:1606:25"
   },
   "legacyAST": {
     "absolutePath": "@aragon/os/contracts/apps/AppProxyPinned.sol",
     "exportedSymbols": {
       "AppProxyPinned": [
-        12536
+        12551
       ]
     },
-    "id": 12537,
+    "id": 12552,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 12455,
+        "id": 12470,
         "literals": [
           "solidity",
           "0.4",
           ".24"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:23:24"
+        "src": "0:23:25"
       },
       {
         "absolutePath": "@aragon/os/contracts/common/UnstructuredStorage.sol",
         "file": "../common/UnstructuredStorage.sol",
-        "id": 12456,
+        "id": 12471,
         "nodeType": "ImportDirective",
-        "scope": 12537,
-        "sourceUnit": 13580,
-        "src": "25:43:24",
+        "scope": 12552,
+        "sourceUnit": 13595,
+        "src": "25:43:25",
         "symbolAliases": [],
         "unitAlias": ""
       },
       {
         "absolutePath": "@aragon/os/contracts/common/IsContract.sol",
         "file": "../common/IsContract.sol",
-        "id": 12457,
+        "id": 12472,
         "nodeType": "ImportDirective",
-        "scope": 12537,
-        "sourceUnit": 13112,
-        "src": "69:34:24",
+        "scope": 12552,
+        "sourceUnit": 13127,
+        "src": "69:34:25",
         "symbolAliases": [],
         "unitAlias": ""
       },
       {
         "absolutePath": "@aragon/os/contracts/apps/AppProxyBase.sol",
         "file": "./AppProxyBase.sol",
-        "id": 12458,
+        "id": 12473,
         "nodeType": "ImportDirective",
-        "scope": 12537,
-        "sourceUnit": 12454,
-        "src": "104:28:24",
+        "scope": 12552,
+        "sourceUnit": 12469,
+        "src": "104:28:25",
         "symbolAliases": [],
         "unitAlias": ""
       },
@@ -1177,88 +1177,88 @@
             "arguments": null,
             "baseName": {
               "contractScope": null,
-              "id": 12459,
+              "id": 12474,
               "name": "IsContract",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 13111,
-              "src": "162:10:24",
+              "referencedDeclaration": 13126,
+              "src": "162:10:25",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_IsContract_$13111",
+                "typeIdentifier": "t_contract$_IsContract_$13126",
                 "typeString": "contract IsContract"
               }
             },
-            "id": 12460,
+            "id": 12475,
             "nodeType": "InheritanceSpecifier",
-            "src": "162:10:24"
+            "src": "162:10:25"
           },
           {
             "arguments": null,
             "baseName": {
               "contractScope": null,
-              "id": 12461,
+              "id": 12476,
               "name": "AppProxyBase",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 12453,
-              "src": "174:12:24",
+              "referencedDeclaration": 12468,
+              "src": "174:12:25",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_AppProxyBase_$12453",
+                "typeIdentifier": "t_contract$_AppProxyBase_$12468",
                 "typeString": "contract AppProxyBase"
               }
             },
-            "id": 12462,
+            "id": 12477,
             "nodeType": "InheritanceSpecifier",
-            "src": "174:12:24"
+            "src": "174:12:25"
           }
         ],
         "contractDependencies": [
-          12453,
-          12638,
-          12856,
-          12895,
-          12927,
-          13111,
-          15387,
-          16498
+          12468,
+          12653,
+          12871,
+          12910,
+          12942,
+          13126,
+          15402,
+          16513
         ],
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 12536,
+        "id": 12551,
         "linearizedBaseContracts": [
-          12536,
-          12453,
-          15387,
-          12895,
-          12856,
-          13111,
-          16498,
-          12927,
-          12638
+          12551,
+          12468,
+          15402,
+          12910,
+          12871,
+          13126,
+          16513,
+          12942,
+          12653
         ],
         "name": "AppProxyPinned",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
-            "id": 12465,
+            "id": 12480,
             "libraryName": {
               "contractScope": null,
-              "id": 12463,
+              "id": 12478,
               "name": "UnstructuredStorage",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 13579,
-              "src": "199:19:24",
+              "referencedDeclaration": 13594,
+              "src": "199:19:25",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_UnstructuredStorage_$13579",
+                "typeIdentifier": "t_contract$_UnstructuredStorage_$13594",
                 "typeString": "library UnstructuredStorage"
               }
             },
             "nodeType": "UsingForDirective",
-            "src": "193:38:24",
+            "src": "193:38:25",
             "typeName": {
-              "id": 12464,
+              "id": 12479,
               "name": "bytes32",
               "nodeType": "ElementaryTypeName",
-              "src": "223:7:24",
+              "src": "223:7:25",
               "typeDescriptions": {
                 "typeIdentifier": "t_bytes32",
                 "typeString": "bytes32"
@@ -1267,11 +1267,11 @@
           },
           {
             "constant": true,
-            "id": 12468,
+            "id": 12483,
             "name": "PINNED_CODE_POSITION",
             "nodeType": "VariableDeclaration",
-            "scope": 12536,
-            "src": "288:115:24",
+            "scope": 12551,
+            "src": "288:115:25",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -1279,10 +1279,10 @@
               "typeString": "bytes32"
             },
             "typeName": {
-              "id": 12466,
+              "id": 12481,
               "name": "bytes32",
               "nodeType": "ElementaryTypeName",
-              "src": "288:7:24",
+              "src": "288:7:25",
               "typeDescriptions": {
                 "typeIdentifier": "t_bytes32",
                 "typeString": "bytes32"
@@ -1291,14 +1291,14 @@
             "value": {
               "argumentTypes": null,
               "hexValue": "307864656536346466323064363565353364376635316362366162366439323161306136613633386139316539343265316438643032646632386533316330333865",
-              "id": 12467,
+              "id": 12482,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
               "kind": "number",
               "lValueRequested": false,
               "nodeType": "Literal",
-              "src": "337:66:24",
+              "src": "337:66:25",
               "subdenomination": null,
               "typeDescriptions": {
                 "typeIdentifier": "t_rational_100820365170570940095149395125004696378246249682938023923674859826976992789390_by_1",
@@ -1310,9 +1310,9 @@
           },
           {
             "body": {
-              "id": 12495,
+              "id": 12510,
               "nodeType": "Block",
-              "src": "881:93:24",
+              "src": "881:93:25",
               "statements": [
                 {
                   "expression": {
@@ -1323,12 +1323,12 @@
                         "arguments": [
                           {
                             "argumentTypes": null,
-                            "id": 12484,
+                            "id": 12499,
                             "name": "_appId",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 12472,
-                            "src": "916:6:24",
+                            "referencedDeclaration": 12487,
+                            "src": "916:6:25",
                             "typeDescriptions": {
                               "typeIdentifier": "t_bytes32",
                               "typeString": "bytes32"
@@ -1342,18 +1342,18 @@
                               "typeString": "bytes32"
                             }
                           ],
-                          "id": 12483,
+                          "id": 12498,
                           "name": "getAppBase",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 12452,
-                          "src": "905:10:24",
+                          "referencedDeclaration": 12467,
+                          "src": "905:10:25",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_view$_t_bytes32_$returns$_t_address_$",
                             "typeString": "function (bytes32) view returns (address)"
                           }
                         },
-                        "id": 12485,
+                        "id": 12500,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -1361,7 +1361,7 @@
                         "lValueRequested": false,
                         "names": [],
                         "nodeType": "FunctionCall",
-                        "src": "905:18:24",
+                        "src": "905:18:25",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -1375,18 +1375,18 @@
                           "typeString": "address"
                         }
                       ],
-                      "id": 12482,
+                      "id": 12497,
                       "name": "setPinnedCode",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 12525,
-                      "src": "891:13:24",
+                      "referencedDeclaration": 12540,
+                      "src": "891:13:25",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$returns$__$",
                         "typeString": "function (address)"
                       }
                     },
-                    "id": 12486,
+                    "id": 12501,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1394,15 +1394,15 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "891:33:24",
+                    "src": "891:33:25",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 12487,
+                  "id": 12502,
                   "nodeType": "ExpressionStatement",
-                  "src": "891:33:24"
+                  "src": "891:33:25"
                 },
                 {
                   "expression": {
@@ -1416,18 +1416,18 @@
                             "arguments": [],
                             "expression": {
                               "argumentTypes": [],
-                              "id": 12490,
+                              "id": 12505,
                               "name": "pinnedCode",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 12535,
-                              "src": "953:10:24",
+                              "referencedDeclaration": 12550,
+                              "src": "953:10:25",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
                                 "typeString": "function () view returns (address)"
                               }
                             },
-                            "id": 12491,
+                            "id": 12506,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
@@ -1435,7 +1435,7 @@
                             "lValueRequested": false,
                             "names": [],
                             "nodeType": "FunctionCall",
-                            "src": "953:12:24",
+                            "src": "953:12:25",
                             "typeDescriptions": {
                               "typeIdentifier": "t_address",
                               "typeString": "address"
@@ -1449,18 +1449,18 @@
                               "typeString": "address"
                             }
                           ],
-                          "id": 12489,
+                          "id": 12504,
                           "name": "isContract",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 13110,
-                          "src": "942:10:24",
+                          "referencedDeclaration": 13125,
+                          "src": "942:10:25",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_view$_t_address_$returns$_t_bool_$",
                             "typeString": "function (address) view returns (bool)"
                           }
                         },
-                        "id": 12492,
+                        "id": 12507,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -1468,7 +1468,7 @@
                         "lValueRequested": false,
                         "names": [],
                         "nodeType": "FunctionCall",
-                        "src": "942:24:24",
+                        "src": "942:24:25",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
@@ -1482,21 +1482,21 @@
                           "typeString": "bool"
                         }
                       ],
-                      "id": 12488,
+                      "id": 12503,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        18256,
-                        18257
+                        18271,
+                        18272
                       ],
-                      "referencedDeclaration": 18256,
-                      "src": "934:7:24",
+                      "referencedDeclaration": 18271,
+                      "src": "934:7:25",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
                         "typeString": "function (bool) pure"
                       }
                     },
-                    "id": 12493,
+                    "id": 12508,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1504,20 +1504,20 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "934:33:24",
+                    "src": "934:33:25",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 12494,
+                  "id": 12509,
                   "nodeType": "ExpressionStatement",
-                  "src": "934:33:24"
+                  "src": "934:33:25"
                 }
               ]
             },
             "documentation": "@dev Initialize AppProxyPinned (makes it an un-upgradeable Aragon app)\n@param _kernel Reference to organization kernel for the app\n@param _appId Identifier for app\n@param _initializePayload Payload for call to be made after setup to initialize",
-            "id": 12496,
+            "id": 12511,
             "implemented": true,
             "isConstructor": true,
             "isDeclaredConst": false,
@@ -1526,25 +1526,25 @@
                 "arguments": [
                   {
                     "argumentTypes": null,
-                    "id": 12477,
+                    "id": 12492,
                     "name": "_kernel",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 12470,
-                    "src": "785:7:24",
+                    "referencedDeclaration": 12485,
+                    "src": "785:7:25",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_IKernel_$14873",
+                      "typeIdentifier": "t_contract$_IKernel_$14888",
                       "typeString": "contract IKernel"
                     }
                   },
                   {
                     "argumentTypes": null,
-                    "id": 12478,
+                    "id": 12493,
                     "name": "_appId",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 12472,
-                    "src": "794:6:24",
+                    "referencedDeclaration": 12487,
+                    "src": "794:6:25",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -1552,64 +1552,64 @@
                   },
                   {
                     "argumentTypes": null,
-                    "id": 12479,
+                    "id": 12494,
                     "name": "_initializePayload",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 12474,
-                    "src": "802:18:24",
+                    "referencedDeclaration": 12489,
+                    "src": "802:18:25",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes_memory_ptr",
                       "typeString": "bytes memory"
                     }
                   }
                 ],
-                "id": 12480,
+                "id": 12495,
                 "modifierName": {
                   "argumentTypes": null,
-                  "id": 12476,
+                  "id": 12491,
                   "name": "AppProxyBase",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 12453,
-                  "src": "772:12:24",
+                  "referencedDeclaration": 12468,
+                  "src": "772:12:25",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_type$_t_contract$_AppProxyBase_$12453_$",
+                    "typeIdentifier": "t_type$_t_contract$_AppProxyBase_$12468_$",
                     "typeString": "type(contract AppProxyBase)"
                   }
                 },
                 "nodeType": "ModifierInvocation",
-                "src": "772:49:24"
+                "src": "772:49:25"
               }
             ],
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 12475,
+              "id": 12490,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 12470,
+                  "id": 12485,
                   "name": "_kernel",
                   "nodeType": "VariableDeclaration",
-                  "scope": 12496,
-                  "src": "705:15:24",
+                  "scope": 12511,
+                  "src": "705:15:25",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_IKernel_$14873",
+                    "typeIdentifier": "t_contract$_IKernel_$14888",
                     "typeString": "contract IKernel"
                   },
                   "typeName": {
                     "contractScope": null,
-                    "id": 12469,
+                    "id": 12484,
                     "name": "IKernel",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 14873,
-                    "src": "705:7:24",
+                    "referencedDeclaration": 14888,
+                    "src": "705:7:25",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_IKernel_$14873",
+                      "typeIdentifier": "t_contract$_IKernel_$14888",
                       "typeString": "contract IKernel"
                     }
                   },
@@ -1618,11 +1618,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 12472,
+                  "id": 12487,
                   "name": "_appId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 12496,
-                  "src": "722:14:24",
+                  "scope": 12511,
+                  "src": "722:14:25",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1630,10 +1630,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 12471,
+                    "id": 12486,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "722:7:24",
+                    "src": "722:7:25",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -1644,11 +1644,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 12474,
+                  "id": 12489,
                   "name": "_initializePayload",
                   "nodeType": "VariableDeclaration",
-                  "scope": 12496,
-                  "src": "738:24:24",
+                  "scope": 12511,
+                  "src": "738:24:25",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1656,10 +1656,10 @@
                     "typeString": "bytes"
                   },
                   "typeName": {
-                    "id": 12473,
+                    "id": 12488,
                     "name": "bytes",
                     "nodeType": "ElementaryTypeName",
-                    "src": "738:5:24",
+                    "src": "738:5:25",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes_storage_ptr",
                       "typeString": "bytes"
@@ -1669,26 +1669,26 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "704:59:24"
+              "src": "704:59:25"
             },
             "payable": false,
             "returnParameters": {
-              "id": 12481,
+              "id": 12496,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "881:0:24"
+              "src": "881:0:25"
             },
-            "scope": 12536,
-            "src": "693:281:24",
+            "scope": 12551,
+            "src": "693:281:25",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 12504,
+              "id": 12519,
               "nodeType": "Block",
-              "src": "1118:36:24",
+              "src": "1118:36:25",
               "statements": [
                 {
                   "expression": {
@@ -1696,18 +1696,18 @@
                     "arguments": [],
                     "expression": {
                       "argumentTypes": [],
-                      "id": 12501,
+                      "id": 12516,
                       "name": "pinnedCode",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 12535,
-                      "src": "1135:10:24",
+                      "referencedDeclaration": 12550,
+                      "src": "1135:10:25",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
                         "typeString": "function () view returns (address)"
                       }
                     },
-                    "id": 12502,
+                    "id": 12517,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1715,21 +1715,21 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "1135:12:24",
+                    "src": "1135:12:25",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
                     }
                   },
-                  "functionReturnParameters": 12500,
-                  "id": 12503,
+                  "functionReturnParameters": 12515,
+                  "id": 12518,
                   "nodeType": "Return",
-                  "src": "1128:19:24"
+                  "src": "1128:19:25"
                 }
               ]
             },
             "documentation": "@dev ERC897, the address the proxy would delegate calls to",
-            "id": 12505,
+            "id": 12520,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -1737,23 +1737,23 @@
             "name": "implementation",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 12497,
+              "id": 12512,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1085:2:24"
+              "src": "1085:2:25"
             },
             "payable": false,
             "returnParameters": {
-              "id": 12500,
+              "id": 12515,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 12499,
+                  "id": 12514,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 12505,
-                  "src": "1109:7:24",
+                  "scope": 12520,
+                  "src": "1109:7:25",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1761,10 +1761,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 12498,
+                    "id": 12513,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1109:7:24",
+                    "src": "1109:7:25",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -1774,43 +1774,43 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1108:9:24"
+              "src": "1108:9:25"
             },
-            "scope": 12536,
-            "src": "1062:92:24",
+            "scope": 12551,
+            "src": "1062:92:25",
             "stateMutability": "view",
-            "superFunction": 16497,
+            "superFunction": 16512,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 12512,
+              "id": 12527,
               "nodeType": "Block",
-              "src": "1318:34:24",
+              "src": "1318:34:25",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 12510,
+                    "id": 12525,
                     "name": "FORWARDING",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 16484,
-                    "src": "1335:10:24",
+                    "referencedDeclaration": 16499,
+                    "src": "1335:10:25",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "functionReturnParameters": 12509,
-                  "id": 12511,
+                  "functionReturnParameters": 12524,
+                  "id": 12526,
                   "nodeType": "Return",
-                  "src": "1328:17:24"
+                  "src": "1328:17:25"
                 }
               ]
             },
             "documentation": "@dev ERC897, whether it is a forwarding (1) or an upgradeable (2) proxy",
-            "id": 12513,
+            "id": 12528,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -1818,23 +1818,23 @@
             "name": "proxyType",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 12506,
+              "id": 12521,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1273:2:24"
+              "src": "1273:2:25"
             },
             "payable": false,
             "returnParameters": {
-              "id": 12509,
+              "id": 12524,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 12508,
+                  "id": 12523,
                   "name": "proxyTypeId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 12513,
-                  "src": "1297:19:24",
+                  "scope": 12528,
+                  "src": "1297:19:25",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1842,10 +1842,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 12507,
+                    "id": 12522,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1297:7:24",
+                    "src": "1297:7:25",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1855,19 +1855,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1296:21:24"
+              "src": "1296:21:25"
             },
-            "scope": 12536,
-            "src": "1255:97:24",
+            "scope": 12551,
+            "src": "1255:97:25",
             "stateMutability": "pure",
-            "superFunction": 16492,
+            "superFunction": 16507,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 12524,
+              "id": 12539,
               "nodeType": "Block",
-              "src": "1411:68:24",
+              "src": "1411:68:25",
               "statements": [
                 {
                   "expression": {
@@ -1875,12 +1875,12 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 12521,
+                        "id": 12536,
                         "name": "_pinnedCode",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 12515,
-                        "src": "1460:11:24",
+                        "referencedDeclaration": 12530,
+                        "src": "1460:11:25",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -1896,32 +1896,32 @@
                       ],
                       "expression": {
                         "argumentTypes": null,
-                        "id": 12518,
+                        "id": 12533,
                         "name": "PINNED_CODE_POSITION",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 12468,
-                        "src": "1421:20:24",
+                        "referencedDeclaration": 12483,
+                        "src": "1421:20:25",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes32",
                           "typeString": "bytes32"
                         }
                       },
-                      "id": 12520,
+                      "id": 12535,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "setStorageAddress",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 13560,
-                      "src": "1421:38:24",
+                      "referencedDeclaration": 13575,
+                      "src": "1421:38:25",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_bytes32_$_t_address_$returns$__$bound_to$_t_bytes32_$",
                         "typeString": "function (bytes32,address)"
                       }
                     },
-                    "id": 12522,
+                    "id": 12537,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1929,20 +1929,20 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "1421:51:24",
+                    "src": "1421:51:25",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 12523,
+                  "id": 12538,
                   "nodeType": "ExpressionStatement",
-                  "src": "1421:51:24"
+                  "src": "1421:51:25"
                 }
               ]
             },
             "documentation": null,
-            "id": 12525,
+            "id": 12540,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -1950,16 +1950,16 @@
             "name": "setPinnedCode",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 12516,
+              "id": 12531,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 12515,
+                  "id": 12530,
                   "name": "_pinnedCode",
                   "nodeType": "VariableDeclaration",
-                  "scope": 12525,
-                  "src": "1381:19:24",
+                  "scope": 12540,
+                  "src": "1381:19:25",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1967,10 +1967,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 12514,
+                    "id": 12529,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1381:7:24",
+                    "src": "1381:7:25",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -1980,26 +1980,26 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1380:21:24"
+              "src": "1380:21:25"
             },
             "payable": false,
             "returnParameters": {
-              "id": 12517,
+              "id": 12532,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1411:0:24"
+              "src": "1411:0:25"
             },
-            "scope": 12536,
-            "src": "1358:121:24",
+            "scope": 12551,
+            "src": "1358:121:25",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "internal"
           },
           {
             "body": {
-              "id": 12534,
+              "id": 12549,
               "nodeType": "Block",
-              "src": "1539:64:24",
+              "src": "1539:64:25",
               "statements": [
                 {
                   "expression": {
@@ -2009,32 +2009,32 @@
                       "argumentTypes": [],
                       "expression": {
                         "argumentTypes": null,
-                        "id": 12530,
+                        "id": 12545,
                         "name": "PINNED_CODE_POSITION",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 12468,
-                        "src": "1556:20:24",
+                        "referencedDeclaration": 12483,
+                        "src": "1556:20:25",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes32",
                           "typeString": "bytes32"
                         }
                       },
-                      "id": 12531,
+                      "id": 12546,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "getStorageAddress",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 13524,
-                      "src": "1556:38:24",
+                      "referencedDeclaration": 13539,
+                      "src": "1556:38:25",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_view$_t_bytes32_$returns$_t_address_$bound_to$_t_bytes32_$",
                         "typeString": "function (bytes32) view returns (address)"
                       }
                     },
-                    "id": 12532,
+                    "id": 12547,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2042,21 +2042,21 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "1556:40:24",
+                    "src": "1556:40:25",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
                     }
                   },
-                  "functionReturnParameters": 12529,
-                  "id": 12533,
+                  "functionReturnParameters": 12544,
+                  "id": 12548,
                   "nodeType": "Return",
-                  "src": "1549:47:24"
+                  "src": "1549:47:25"
                 }
               ]
             },
             "documentation": null,
-            "id": 12535,
+            "id": 12550,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -2064,23 +2064,23 @@
             "name": "pinnedCode",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 12526,
+              "id": 12541,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1504:2:24"
+              "src": "1504:2:25"
             },
             "payable": false,
             "returnParameters": {
-              "id": 12529,
+              "id": 12544,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 12528,
+                  "id": 12543,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 12535,
-                  "src": "1530:7:24",
+                  "scope": 12550,
+                  "src": "1530:7:25",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2088,10 +2088,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 12527,
+                    "id": 12542,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1530:7:24",
+                    "src": "1530:7:25",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -2101,20 +2101,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1529:9:24"
+              "src": "1529:9:25"
             },
-            "scope": 12536,
-            "src": "1485:118:24",
+            "scope": 12551,
+            "src": "1485:118:25",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "internal"
           }
         ],
-        "scope": 12537,
-        "src": "135:1470:24"
+        "scope": 12552,
+        "src": "135:1470:25"
       }
     ],
-    "src": "0:1606:24"
+    "src": "0:1606:25"
   },
   "compiler": {
     "name": "solc",
@@ -2122,7 +2122,7 @@
   },
   "networks": {},
   "schemaVersion": "3.0.20",
-  "updatedAt": "2020-01-13T22:31:02.610Z",
+  "updatedAt": "2020-01-14T03:46:15.172Z",
   "devdoc": {
     "methods": {
       "implementation()": {

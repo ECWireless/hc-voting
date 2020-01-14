@@ -53,30 +53,30 @@
     "absolutePath": "@aragon/id/contracts/IFIFSResolvingRegistrar.sol",
     "exportedSymbols": {
       "IFIFSResolvingRegistrar": [
-        10092
+        10107
       ]
     },
-    "id": 10093,
+    "id": 10108,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 10074,
+        "id": 10089,
         "literals": [
           "solidity",
           "0.4",
           ".24"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:23:15"
+        "src": "0:23:16"
       },
       {
         "absolutePath": "@aragon/id/contracts/ens/IPublicResolver.sol",
         "file": "./ens/IPublicResolver.sol",
-        "id": 10075,
+        "id": 10090,
         "nodeType": "ImportDirective",
-        "scope": 10093,
-        "sourceUnit": 10131,
-        "src": "25:35:15",
+        "scope": 10108,
+        "sourceUnit": 10146,
+        "src": "25:35:16",
         "symbolAliases": [],
         "unitAlias": ""
       },
@@ -86,9 +86,9 @@
         "contractKind": "interface",
         "documentation": null,
         "fullyImplemented": false,
-        "id": 10092,
+        "id": 10107,
         "linearizedBaseContracts": [
-          10092
+          10107
         ],
         "name": "IFIFSResolvingRegistrar",
         "nodeType": "ContractDefinition",
@@ -96,7 +96,7 @@
           {
             "body": null,
             "documentation": null,
-            "id": 10082,
+            "id": 10097,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -104,16 +104,16 @@
             "name": "register",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 10080,
+              "id": 10095,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 10077,
+                  "id": 10092,
                   "name": "_subnode",
                   "nodeType": "VariableDeclaration",
-                  "scope": 10082,
-                  "src": "121:16:15",
+                  "scope": 10097,
+                  "src": "121:16:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -121,10 +121,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 10076,
+                    "id": 10091,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "121:7:15",
+                    "src": "121:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -135,11 +135,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 10079,
+                  "id": 10094,
                   "name": "_owner",
                   "nodeType": "VariableDeclaration",
-                  "scope": 10082,
-                  "src": "139:14:15",
+                  "scope": 10097,
+                  "src": "139:14:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -147,10 +147,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 10078,
+                    "id": 10093,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "139:7:15",
+                    "src": "139:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -160,17 +160,17 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "120:34:15"
+              "src": "120:34:16"
             },
             "payable": false,
             "returnParameters": {
-              "id": 10081,
+              "id": 10096,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "163:0:15"
+              "src": "163:0:16"
             },
-            "scope": 10092,
-            "src": "103:61:15",
+            "scope": 10107,
+            "src": "103:61:16",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "external"
@@ -178,7 +178,7 @@
           {
             "body": null,
             "documentation": null,
-            "id": 10091,
+            "id": 10106,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -186,16 +186,16 @@
             "name": "registerWithResolver",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 10089,
+              "id": 10104,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 10084,
+                  "id": 10099,
                   "name": "_subnode",
                   "nodeType": "VariableDeclaration",
-                  "scope": 10091,
-                  "src": "199:16:15",
+                  "scope": 10106,
+                  "src": "199:16:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -203,10 +203,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 10083,
+                    "id": 10098,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "199:7:15",
+                    "src": "199:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -217,11 +217,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 10086,
+                  "id": 10101,
                   "name": "_owner",
                   "nodeType": "VariableDeclaration",
-                  "scope": 10091,
-                  "src": "217:14:15",
+                  "scope": 10106,
+                  "src": "217:14:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -229,10 +229,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 10085,
+                    "id": 10100,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "217:7:15",
+                    "src": "217:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -243,26 +243,26 @@
                 },
                 {
                   "constant": false,
-                  "id": 10088,
+                  "id": 10103,
                   "name": "_resolver",
                   "nodeType": "VariableDeclaration",
-                  "scope": 10091,
-                  "src": "233:25:15",
+                  "scope": 10106,
+                  "src": "233:25:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_IPublicResolver_$10130",
+                    "typeIdentifier": "t_contract$_IPublicResolver_$10145",
                     "typeString": "contract IPublicResolver"
                   },
                   "typeName": {
                     "contractScope": null,
-                    "id": 10087,
+                    "id": 10102,
                     "name": "IPublicResolver",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 10130,
-                    "src": "233:15:15",
+                    "referencedDeclaration": 10145,
+                    "src": "233:15:16",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_IPublicResolver_$10130",
+                      "typeIdentifier": "t_contract$_IPublicResolver_$10145",
                       "typeString": "contract IPublicResolver"
                     }
                   },
@@ -270,56 +270,56 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "198:61:15"
+              "src": "198:61:16"
             },
             "payable": false,
             "returnParameters": {
-              "id": 10090,
+              "id": 10105,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "266:0:15"
+              "src": "266:0:16"
             },
-            "scope": 10092,
-            "src": "169:98:15",
+            "scope": 10107,
+            "src": "169:98:16",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 10093,
-        "src": "63:206:15"
+        "scope": 10108,
+        "src": "63:206:16"
       }
     ],
-    "src": "0:270:15"
+    "src": "0:270:16"
   },
   "legacyAST": {
     "absolutePath": "@aragon/id/contracts/IFIFSResolvingRegistrar.sol",
     "exportedSymbols": {
       "IFIFSResolvingRegistrar": [
-        10092
+        10107
       ]
     },
-    "id": 10093,
+    "id": 10108,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 10074,
+        "id": 10089,
         "literals": [
           "solidity",
           "0.4",
           ".24"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:23:15"
+        "src": "0:23:16"
       },
       {
         "absolutePath": "@aragon/id/contracts/ens/IPublicResolver.sol",
         "file": "./ens/IPublicResolver.sol",
-        "id": 10075,
+        "id": 10090,
         "nodeType": "ImportDirective",
-        "scope": 10093,
-        "sourceUnit": 10131,
-        "src": "25:35:15",
+        "scope": 10108,
+        "sourceUnit": 10146,
+        "src": "25:35:16",
         "symbolAliases": [],
         "unitAlias": ""
       },
@@ -329,9 +329,9 @@
         "contractKind": "interface",
         "documentation": null,
         "fullyImplemented": false,
-        "id": 10092,
+        "id": 10107,
         "linearizedBaseContracts": [
-          10092
+          10107
         ],
         "name": "IFIFSResolvingRegistrar",
         "nodeType": "ContractDefinition",
@@ -339,7 +339,7 @@
           {
             "body": null,
             "documentation": null,
-            "id": 10082,
+            "id": 10097,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -347,16 +347,16 @@
             "name": "register",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 10080,
+              "id": 10095,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 10077,
+                  "id": 10092,
                   "name": "_subnode",
                   "nodeType": "VariableDeclaration",
-                  "scope": 10082,
-                  "src": "121:16:15",
+                  "scope": 10097,
+                  "src": "121:16:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -364,10 +364,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 10076,
+                    "id": 10091,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "121:7:15",
+                    "src": "121:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -378,11 +378,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 10079,
+                  "id": 10094,
                   "name": "_owner",
                   "nodeType": "VariableDeclaration",
-                  "scope": 10082,
-                  "src": "139:14:15",
+                  "scope": 10097,
+                  "src": "139:14:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -390,10 +390,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 10078,
+                    "id": 10093,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "139:7:15",
+                    "src": "139:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -403,17 +403,17 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "120:34:15"
+              "src": "120:34:16"
             },
             "payable": false,
             "returnParameters": {
-              "id": 10081,
+              "id": 10096,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "163:0:15"
+              "src": "163:0:16"
             },
-            "scope": 10092,
-            "src": "103:61:15",
+            "scope": 10107,
+            "src": "103:61:16",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "external"
@@ -421,7 +421,7 @@
           {
             "body": null,
             "documentation": null,
-            "id": 10091,
+            "id": 10106,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -429,16 +429,16 @@
             "name": "registerWithResolver",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 10089,
+              "id": 10104,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 10084,
+                  "id": 10099,
                   "name": "_subnode",
                   "nodeType": "VariableDeclaration",
-                  "scope": 10091,
-                  "src": "199:16:15",
+                  "scope": 10106,
+                  "src": "199:16:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -446,10 +446,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 10083,
+                    "id": 10098,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "199:7:15",
+                    "src": "199:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -460,11 +460,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 10086,
+                  "id": 10101,
                   "name": "_owner",
                   "nodeType": "VariableDeclaration",
-                  "scope": 10091,
-                  "src": "217:14:15",
+                  "scope": 10106,
+                  "src": "217:14:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -472,10 +472,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 10085,
+                    "id": 10100,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "217:7:15",
+                    "src": "217:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -486,26 +486,26 @@
                 },
                 {
                   "constant": false,
-                  "id": 10088,
+                  "id": 10103,
                   "name": "_resolver",
                   "nodeType": "VariableDeclaration",
-                  "scope": 10091,
-                  "src": "233:25:15",
+                  "scope": 10106,
+                  "src": "233:25:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_IPublicResolver_$10130",
+                    "typeIdentifier": "t_contract$_IPublicResolver_$10145",
                     "typeString": "contract IPublicResolver"
                   },
                   "typeName": {
                     "contractScope": null,
-                    "id": 10087,
+                    "id": 10102,
                     "name": "IPublicResolver",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 10130,
-                    "src": "233:15:15",
+                    "referencedDeclaration": 10145,
+                    "src": "233:15:16",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_IPublicResolver_$10130",
+                      "typeIdentifier": "t_contract$_IPublicResolver_$10145",
                       "typeString": "contract IPublicResolver"
                     }
                   },
@@ -513,27 +513,27 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "198:61:15"
+              "src": "198:61:16"
             },
             "payable": false,
             "returnParameters": {
-              "id": 10090,
+              "id": 10105,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "266:0:15"
+              "src": "266:0:16"
             },
-            "scope": 10092,
-            "src": "169:98:15",
+            "scope": 10107,
+            "src": "169:98:16",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 10093,
-        "src": "63:206:15"
+        "scope": 10108,
+        "src": "63:206:16"
       }
     ],
-    "src": "0:270:15"
+    "src": "0:270:16"
   },
   "compiler": {
     "name": "solc",
@@ -541,7 +541,7 @@
   },
   "networks": {},
   "schemaVersion": "3.0.20",
-  "updatedAt": "2020-01-13T22:31:02.596Z",
+  "updatedAt": "2020-01-14T03:46:15.120Z",
   "devdoc": {
     "methods": {}
   },
